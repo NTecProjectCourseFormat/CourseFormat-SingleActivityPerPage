@@ -1,0 +1,47 @@
+#contentSection #page-header                        {display:none;}
+#contentSection #page-footer                        {display:none;}
+#contentSection #page-navbar                        {display:none;}
+#contentSection aside                               {display:none;}
+#contentSection .header.backto                      {display:none;}
+#horizontalNavigation                               {position:relative; height:80px;  width:350px;float:left;}
+#contentSection                                     {position:relative; width:350px; float:left;}
+.format-singleactivityperpage.row                              {float:left; width:200px; }
+a.accordion-toggle                                  {font-size:70%;}
+.format-singleactivityperpage                                  {pointer-events:auto;}
+.format-singleactivityperpage .course-content ul.singleactivityperpage    {margin:0;}
+.format-singleactivityperpage .course-content ul.singleactivityperpage li.section {list-style: none;margin:3px 0 2px 1em;padding-left:5px;padding-right:5px;}
+.course-content ul.singleactivityperpage li.movehere {list-style: none;margin:3px 0 2px 1em;}
+.dir-rtl.format-singleactivityperpage .course-content ul.singleactivityperpage li.section,
+.dir-rtl.course-content ul.singleactivityperpage li.movehere {margin:3px 1em 2px 0;}
+.format-singleactivityperpage .course-content ul.singleactivityperpage-level-0 > li.section {margin-left: 0;}
+.format-singleactivityperpage .course-content ul.singleactivityperpage-level-0 > li.movehere {margin-left: 0;}
+.format-singleactivityperpage .course-content ul.singleactivityperpage li.section.main {border:none;}
+.format-singleactivityperpage .course-content ul.singleactivityperpage-level-1 > li.section.main {border: #DDDDDD solid 1px;padding-left:5px;padding-right:5px;}
+.format-singleactivityperpage .course-content ul.singleactivityperpage li.section .controls img {padding-left:0.3em;padding-right:0.3em}
+.format-singleactivityperpage .course-content ul.singleactivityperpage li.section .availabilityinfo {padding-bottom: .5em;}
+
+/* Overwrite bootstrapbase styles */
+.format-singleactivityperpage .course-content ul.singleactivityperpage .controls a.hide,
+.format-singleactivityperpage .course-content ul.singleactivityperpage .controls a.show {display:inline;}
+
+/* hidden section */
+.format-singleactivityperpage .course-content li.section.hidden > .content > h3.sectionname,
+.format-singleactivityperpage .course-content li.section.hidden > .content > h3.sectionname a,
+.format-singleactivityperpage .course-content li.section.hidden > .content > .summary,
+.format-singleactivityperpage .course-content li.section.hidden .addresourcemodchooser a,
+.format-singleactivityperpage .course-content li.section.hidden a.addsection {color:#AAAAAA;}
+
+/* add extra borders in editing mode */
+.format-singleactivityperpage.editing .course-content ul.singleactivityperpage li.section.main {border: #DDDDDD solid 1px;}
+.format-singleactivityperpage.editing .course-content ul.singleactivityperpage li.section.main#section-0 {border: none;}
+
+/* moving section */
+.format-singleactivityperpage .course-content ul.singleactivityperpage li.section.ismoving {background:#EEEEEE;}
+.format-singleactivityperpage .course-content ul.singleactivityperpage li.movehere > img {padding-left:5px;}
+.format-singleactivityperpage .course-content div.cancelmoving {margin:3px;padding:5px;background:yellow;border:1px solid black;text-align:center;position:fixed;top:0;right:0;}
+
+.format-singleactivityperpage .jumpmenu {text-align:center;}
+
+.format-singleactivityperpage .header.backto {padding: 5px 10px;border: 1px solid #DDD;margin-bottom:5px;}
+.format-singleactivityperpage .header.backto .backto-text {margin-left:10px;}
+
